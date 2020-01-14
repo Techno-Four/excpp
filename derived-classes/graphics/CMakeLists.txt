@@ -11,6 +11,9 @@ find_package( GLFW )
 
 # Lib
 set( SOURCES 
+	${CMAKE_CURRENT_SOURCE_DIR}/src/buffers.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/src/descriptors.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/src/renderer.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/src/graphics.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/src/glfw.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/src/math.cpp
