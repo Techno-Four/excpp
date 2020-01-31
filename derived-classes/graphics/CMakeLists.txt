@@ -13,6 +13,7 @@ find_package( PNG )
 set( SOURCES
 	${CMAKE_CURRENT_SOURCE_DIR}/src/png.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/src/buffers.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/src/commands.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/src/descriptors.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/src/image.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/src/renderer.cpp
